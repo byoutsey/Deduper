@@ -1,0 +1,7 @@
+    635999 Dataset1_deduped.sam
+   1013204 Dataset1.sam
+    744202 Dataset2_deduped.sam
+   1382133 Dataset2.sam
+   4049570 Dataset3_deduped.sam
+   5721174 Dataset3.sam
+  13546282 total

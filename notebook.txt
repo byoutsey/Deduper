@@ -1,0 +1,7 @@
+Step 1: add header to end of first flag in _UMI+FixedLeftmost_
+Step 2: sort based on _UMI+FixedLeftmost_
+  sort -t '_' -k2,2 samFile (header must be removed and added back on)
+Step 3: dedup
+
+wait, I can just do
+os.system("sort -t -u '_' -k2,2 samFile") (header must be removed and added back on)
